@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test?allowPublicKeyRetrieval=true&userSSL=false&serverTimezone=UTC&userLegacyDatetimeCode=false
     username: root
-    password: 147asd!!
+    password: [password]
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       initialization-fail-timeout: 0
